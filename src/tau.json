@@ -1,0 +1,107 @@
+{
+  "timeout": 180,
+  "agent_name": "default",
+  "malformed": {
+    "silent_retries": 4,
+    "enhanced_retries": 7,
+    "explicit_retries": 10
+  },
+  "loop_detection": {
+    "window_size": 30,
+    "repeat_threshold": 3
+  },
+  "llm_groups": {
+    "cuda": {
+      "model": "model",
+      "api_base": "http://cuda:8000/v1",
+      "api_key": "",
+      "timeout": 600,
+      "max_context_tokens": 200000,
+      "max_tokens": 12000,
+      "chat_template_kwargs": {
+        "enable_thinking": true,
+        "preserve_thinking": true
+      }
+    },
+    "cuda8001": {
+      "model": "model",
+      "api_base": "http://cuda:8001/v1",
+      "api_key": "",
+      "timeout": 600,
+      "max_context_tokens": 200000,
+      "max_tokens": 12000,
+      "chat_template_kwargs": {
+        "enable_thinking": true,
+        "preserve_thinking": true
+      }
+    },
+    "cuda8002": {
+      "model": "model",
+      "api_base": "http://cuda:8002/v1",
+      "api_key": "",
+      "timeout": 600,
+      "max_context_tokens": 200000,
+      "max_tokens": 12000,
+      "chat_template_kwargs": {
+        "enable_thinking": true,
+        "preserve_thinking": true
+      }
+    },
+    "spark": {
+      "model": "model",
+      "api_base": "http://spark:8000/v1",
+      "api_key": "",
+      "timeout": 1200,
+      "max_context_tokens": 199999,
+      "max_tokens": 12000,
+      "chat_template_kwargs": {
+        "enable_thinking": true,
+        "preserve_thinking": true
+      }
+    },
+    "ds4": {
+      "model": "model",
+      "api_base": "http://spark:8000/v1",
+      "api_key": "",
+      "timeout": 1800,
+      "max_context_tokens": 200000,
+      "max_tokens": 8192,
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "chat_template_kwargs": {
+        "enable_thinking": true,
+        "preserve_thinking": true
+      }
+    },
+    "example": {
+      "model": "model",
+      "api_base": "http://localhost:8000/v1",
+      "api_key": "",
+      "timeout": 300,
+      "max_context_tokens": 200000,
+      "max_tokens": 8192,
+      "temperature": 0.7,
+      "top_p": 0.95,
+      "top_k": 40,
+      "min_p": 0.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0,
+      "repetition_penalty": 1.0,
+      "chat_template_kwargs": {
+        "enable_thinking": true,
+        "preserve_thinking": true,
+        "thinking_token_budget": 40196,
+        "low_effort": false
+      }
+    }
+  },
+  "rlm": {
+    "max_turns": 1000,
+    "repl": {
+      "max_output_chars": 8192,
+      "max_state_size_mb": 100,
+      "bash_timeout_seconds": 60,
+      "fence_style": "at"
+    }
+  }
+}

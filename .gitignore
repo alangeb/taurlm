@@ -1,0 +1,88 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Linting
+.ruff_cache/
+.flake8
+flake8_report.txt
+
+# Packaging
+*.egg-info/
+*.dist-info/
+*.egg
+build/
+dist/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.spec.backup
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.venv/
+env/
+venv/
+
+# Runtime state
+.tau/
+messages/
+*.json
+*.msg
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# Dream loop runtime files
+dream.log
+dream.pid
+
+# Tasks directory (runtime state)
+tasks/
+dream_monitor_report.txt
+
+
+# Dream runtime state
+dream_state.json
+dream.log.old
+.goal.json
+uv.lock
+messages/
+src/data/
+src/messages/

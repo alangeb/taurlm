@@ -1,0 +1,8 @@
+# Ruff configuration for TauRLM
+
+target-version = "py310"
+
+[lint]
+# Ignore F821 (undefined name) — false positives from dynamic/conditional imports
+# Ignore E402 (module level import not at top) — intentional in test files
+ignore = ["F821", "E402"]

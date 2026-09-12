@@ -1,0 +1,173 @@
+rule,category,source,record_key,field,raw_value,canonical_value,reason
+BILLING.DUP_CONFLICT,deduped,billing,DEV002@2024-01,billed_kwh/credit_flag,20/True,9999/True,duplicate billing line for this device+period; DISAGREEING values - kept 9999/True per DECISIONS 10.3
+BILLING.DUP_IDENTICAL,deduped,billing,DEV001@2024-01,billed_kwh/credit_flag,10/False,10/False,duplicate billing line for this device+period
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV001,credit_flag,N,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV001,credit_flag,N,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV001,credit_flag,N,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV001,credit_flag,N,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV002,credit_flag,yes,true,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV002,credit_flag,yes,true,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV002,credit_flag,yes,true,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV002,credit_flag,yes,true,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV003,credit_flag,N,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV003,credit_flag,N,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV003,credit_flag,N,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV005,credit_flag,0,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV005,credit_flag,0,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV005,credit_flag,0,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV006,credit_flag,,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV006,credit_flag,,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV006,credit_flag,,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV007,credit_flag,no,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV007,credit_flag,no,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV007,credit_flag,no,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV008,credit_flag,T,true,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV008,credit_flag,T,true,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV008,credit_flag,1,true,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV009,credit_flag,Y,true,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV009,credit_flag,Y,true,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV010,credit_flag,N,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV010,credit_flag,N,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV012,credit_flag,N,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV012,credit_flag,N,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV014,credit_flag,0,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV014,credit_flag,0,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV015,credit_flag,,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV015,credit_flag,,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV015,credit_flag,,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV016,credit_flag,no,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV016,credit_flag,no,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV016,credit_flag,1,true,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV017,credit_flag,T,true,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV017,credit_flag,T,true,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV017,credit_flag,T,true,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV018,credit_flag,Y,true,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV018,credit_flag,Y,true,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV018,credit_flag,Y,true,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV019,credit_flag,N,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV019,credit_flag,N,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV019,credit_flag,N,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV020,credit_flag,yes,true,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV020,credit_flag,yes,true,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV020,credit_flag,yes,true,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV021,credit_flag,N,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV021,credit_flag,N,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV021,credit_flag,N,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV023,credit_flag,0,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV023,credit_flag,0,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV023,credit_flag,0,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV024,credit_flag,,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV024,credit_flag,,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV024,credit_flag,,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV025,credit_flag,no,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV025,credit_flag,no,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV025,credit_flag,no,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV026,credit_flag,T,true,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV026,credit_flag,T,true,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV026,credit_flag,T,true,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV027,credit_flag,Y,true,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV027,credit_flag,Y,true,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV027,credit_flag,Y,true,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV028,credit_flag,N,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV028,credit_flag,N,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV028,credit_flag,N,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV029,credit_flag,yes,true,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV029,credit_flag,yes,true,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV029,credit_flag,yes,true,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV030,credit_flag,N,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV030,credit_flag,N,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV030,credit_flag,N,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV032,credit_flag,0,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV032,credit_flag,0,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV032,credit_flag,0,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV034,credit_flag,no,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV034,credit_flag,no,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV034,credit_flag,no,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV035,credit_flag,T,true,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV035,credit_flag,T,true,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV035,credit_flag,T,true,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV036,credit_flag,Y,true,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV036,credit_flag,Y,true,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV036,credit_flag,Y,true,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV037,credit_flag,N,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV037,credit_flag,N,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV037,credit_flag,N,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV038,credit_flag,yes,true,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV038,credit_flag,yes,true,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV038,credit_flag,yes,true,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV039,credit_flag,N,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV039,credit_flag,N,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV039,credit_flag,N,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV041,credit_flag,0,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV041,credit_flag,0,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV041,credit_flag,0,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV042,credit_flag,,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV042,credit_flag,,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV042,credit_flag,,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV043,credit_flag,no,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV043,credit_flag,no,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV043,credit_flag,no,false,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV045,credit_flag,Y,true,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV045,credit_flag,Y,true,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV045,credit_flag,Y,true,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV910,credit_flag,Y,true,credit flag truthiness normalised
+BILLING.FLAG_CANONICALISED,normalised,billing,DEV911,credit_flag,1,true,credit flag truthiness normalised
+BILLING.FLAG_UNKNOWN,excluded,billing,DEV004,credit_flag,maybe,,credit_flag 'maybe' is neither a truthy nor a falsy token; line excluded rather than assumed False
+BILLING.KEY_CANONICALISED,normalised,billing,DEV910,device_id,dev-910,DEV910,device id normalised
+BILLING.KWH_CANONICALISED,normalised,billing,DEV003,billed_kwh,"1,030",1030,billed_kwh normalised to numeric kWh
+BILLING.KWH_CANONICALISED,normalised,billing,DEV013,billed_kwh,"$1,200.50",1200.5,billed_kwh normalised to numeric kWh
+BILLING.KWH_INVALID,excluded,billing,DEV012,billed_kwh,,,billed_kwh is empty or a placeholder
+BILLING.KWH_INVALID,excluded,billing,DEV014,billed_kwh,(150.25),,billed_kwh '(150.25)' is negative; kWh/kW quantities are unsigned
+BILLING.PERIOD_CANONICALISED,normalised,billing,DEV005,billing_period,2024-01-15,2024-01,period normalised to YYYY-MM
+BILLING.PERIOD_CANONICALISED,normalised,billing,DEV006,billing_period,2024/01,2024-01,period normalised to YYYY-MM
+BILLING.PERIOD_OUT_OF_RANGE,excluded_window,billing,DEV009,billing_period,2023-12,2023-12,billing period outside the reporting window 2024-01..2024-03
+BILLING.PERIOD_OUT_OF_RANGE,excluded_window,billing,DEV010,billing_period,2024-04,2024-04,billing period outside the reporting window 2024-01..2024-03
+KEY_MISSING,excluded,billing,(missing),device_id,,,line has no usable device id
+CROSS.BILLING_ONLY,unknown_entity,cross,DEV910,device_id,DEV910,,billed but absent from the register (revenue attributable to an unregistered device)
+CROSS.BILLING_ONLY,unknown_entity,cross,DEV911,device_id,DEV911,,billed but absent from the register (revenue attributable to an unregistered device)
+CROSS.DEVICE_ONLY,unknown_entity,cross,DEV044,device_id,DEV044,,registered device with no readings and no billing line in the window
+CROSS.TELEMETRY_ONLY,unknown_entity,cross,DEV900,device_id,DEV900,,readings exist but the device is absent from the register
+CROSS.TELEMETRY_ONLY,unknown_entity,cross,DEV901,device_id,DEV901,,readings exist but the device is absent from the register
+DEVICE.CAPACITY_CANONICALISED,normalised,devices,DEV002,capacity_kw,"2,200",2200,capacity normalised to numeric kW
+DEVICE.CAPACITY_CANONICALISED,normalised,devices,DEV005,capacity_kw,"2,500 kW",2500,capacity normalised to numeric kW
+DEVICE.CAPACITY_INVALID,reported,devices,DEV006,capacity_kw,abc,,capacity_kw 'abc' is not a recognisable quantity
+DEVICE.CAPACITY_INVALID,reported,devices,DEV017,capacity_kw,-170,,capacity_kw '-170' is negative; kWh/kW quantities are unsigned
+DEVICE.CAPACITY_INVALID,reported,devices,DEV019,capacity_kw,inf,,capacity_kw 'inf' is not a recognisable quantity
+DEVICE.CAPACITY_INVALID,reported,devices,DEV020,capacity_kw,(200),,capacity_kw '(200)' is negative; kWh/kW quantities are unsigned
+DEVICE.CAPACITY_MISSING,reported,devices,DEV018,capacity_kw,,,capacity_kw is empty or a placeholder
+DEVICE.DATE_AMBIGUOUS,excluded,devices,DEV009,commissioned_date,05/06/2024,,'05/06/2024' could be 05/06 or 06/05 2024; not guessed
+DEVICE.DATE_CANONICALISED,normalised,devices,DEV002,commissioned_date,2007-03-03 00:00:00,2007-03-03,date normalised to ISO-8601 UTC
+DEVICE.DATE_CANONICALISED,normalised,devices,DEV012,commissioned_date,15/04/2019,2019-04-15,date normalised to ISO-8601 UTC
+DEVICE.DATE_CANONICALISED,normalised,devices,DEV013,commissioned_date,1704067200,2024-01-01,date normalised to ISO-8601 UTC
+DEVICE.DATE_INVALID,excluded,devices,DEV010,commissioned_date,2024-02-30,,'2024-02-30' is not a valid calendar date
+DEVICE.DATE_OUT_OF_RANGE,excluded,devices,DEV031,commissioned_date,2025-06-01,2025-06-01,"commissioned 2025-06-01, after the reporting window ends 2024-03-31; it cannot legitimately appear in window telemetry or billing"
+DEVICE.DUP_CONFLICT,excluded,devices,DEV003,(record),"SITE-D,300,2008-04-04,active | SITE-D,999,2008-04-04,active",,2 rows disagree (capacity_kw=300/999); device excluded from canonical counts rather than silently picking a winner
+DEVICE.DUP_IDENTICAL,deduped,devices,DEV001,device_id,DEV001,DEV001,2 identical device rows collapsed to 1
+DEVICE.KEY_CANONICALISED,normalised,devices,DEV002,device_id, dev-002; ,DEV002,"device id canonicalised: upper-cased, non-alphanumerics removed"
+DEVICE.KEY_CANONICALISED,normalised,devices,DEV030,device_id,dev-030,DEV030,"device id canonicalised: upper-cased, non-alphanumerics removed"
+DEVICE.KEY_MISSING,excluded,devices,(missing),device_id,,,row has no usable device id; cannot be attributed
+DEVICE.SITE_CANONICALISED,normalised,devices,DEV002,site_id, site  c ,SITE-C,"site ids are upper-cased, separators normalised"
+DEVICE.SITE_CANONICALISED,normalised,devices,DEV040,site_id, site  c ,SITE-C,"site ids are upper-cased, separators normalised"
+DEVICE.STATUS_CANONICALISED,normalised,devices,DEV004,status, IN SERVICE ,active,status vocabulary normalised
+DEVICE.STATUS_CANONICALISED,normalised,devices,DEV011,status,decommissioned,inactive,status vocabulary normalised
+DEVICE.STATUS_CANONICALISED,normalised,devices,DEV016,status,retired,inactive,status vocabulary normalised
+DEVICE.STATUS_CANONICALISED,normalised,devices,DEV022,status,decommissioned,inactive,status vocabulary normalised
+DEVICE.STATUS_CANONICALISED,normalised,devices,DEV033,status,decommissioned,inactive,status vocabulary normalised
+DEVICE.STATUS_CANONICALISED,normalised,devices,DEV044,status,decommissioned,inactive,status vocabulary normalised
+DEVICE.STATUS_UNKNOWN,excluded,devices,DEV015,status,standby,,status is missing or not in the active/inactive vocabulary; device excluded from canonical counts
+DEVICE.STATUS_UNKNOWN,excluded,devices,DEV026,status,,,status is missing or not in the active/inactive vocabulary; device excluded from canonical counts
+TELEMETRY.CADENCE_VIOLATION,reported,telemetry,DEV002,timestamp,2024-01-07T02:45:00+00:00,2024-01-07T02:45:00+00:00,"off the 10-minute grid (minute=45, second=00); gap of 0:45:00 from previous reading is not a multiple of 10 minutes"
+TELEMETRY.CADENCE_VIOLATION,reported,telemetry,DEV002,timestamp,2024-01-07T03:00:00+00:00,2024-01-07T03:00:00+00:00,gap of 0:15:00 from previous reading is not a multiple of 10 minutes
+TELEMETRY.DUP_CONFLICT,deduped,telemetry,DEV001@2024-01-01T10:40:00+00:00,energy_kwh,4/504,4,"2 readings for the same (device, timestamp); kept 4 (values DISAGREE - kept first occurrence, see DECISIONS 10.3)"
+TELEMETRY.DUP_CONFLICT,deduped,telemetry,DEV009@2024-01-12T02:00:00+00:00,energy_kwh,22/17,22,"2 readings for the same (device, timestamp); kept 22 (values DISAGREE - kept first occurrence, see DECISIONS 10.3)"
+TELEMETRY.DUP_IDENTICAL,deduped,telemetry,DEV001@2024-01-01T02:00:00+00:00,energy_kwh,1/1,1,"2 readings for the same (device, timestamp); kept 1 (values agree)"
+TELEMETRY.TIMESTAMP_CANONICALISED,normalised,telemetry,DEV007,timestamp,1704067200,2024-01-01,timestamp epoch (normalised to ISO-8601 UTC)
+TELEMETRY.TIMESTAMP_CANONICALISED,normalised,telemetry,DEV008,timestamp,1704067200000,2024-01-01,timestamp epoch (normalised to ISO-8601 UTC)
+TELEMETRY.TIMESTAMP_INVALID,excluded,telemetry,DEV006,timestamp,01/05/2024 02:40:00,,'01/05/2024 02:40:00' is not a recognisable date/timestamp
+TELEMETRY.TIMESTAMP_OUT_OF_RANGE,excluded_window,telemetry,DEV005,timestamp,2023-12-31T23:50:00,2023-12-31T23:50:00+00:00,timestamp falls outside the reporting window 2024-01-01..2024-03-31
+TELEMETRY.TIMESTAMP_OUT_OF_RANGE,excluded_window,telemetry,DEV005,timestamp,2024-04-01T02:00:00,2024-04-01T02:00:00+00:00,timestamp falls outside the reporting window 2024-01-01..2024-03-31
+TELEMETRY.VALUE_CANONICALISED,normalised,telemetry,DEV009,energy_kwh,"1,024",1024,reading normalised to numeric kWh
+TELEMETRY.VALUE_INVALID,excluded,telemetry,DEV003,energy_kwh,-3,,energy_kwh '-3' is negative; kWh/kW quantities are unsigned
+TELEMETRY.VALUE_INVALID,excluded,telemetry,DEV003,energy_kwh,,,energy_kwh is empty or a placeholder
+TELEMETRY.VALUE_INVALID,excluded,telemetry,DEV003,energy_kwh,N/A,,energy_kwh is empty or a placeholder
+TELEMETRY.VALUE_INVALID,excluded,telemetry,DEV004,energy_kwh,not-a-number,,energy_kwh 'not-a-number' is not a recognisable quantity
